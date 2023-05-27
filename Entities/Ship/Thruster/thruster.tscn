@@ -1,0 +1,100 @@
+[gd_scene load_steps=8 format=3 uid="uid://dw51ox8nx0nn0"]
+
+[ext_resource type="Script" path="res://Entities/Ship/Thruster/Thruster.gd" id="1_7hmg8"]
+[ext_resource type="Texture2D" uid="uid://bqxnxo3fvqbdr" path="res://Assets/Thrusters/Anim/Thruster0.png" id="2_wycie"]
+[ext_resource type="Texture2D" uid="uid://e867loosvlxi" path="res://Assets/Thrusters/Anim/Thruster1.png" id="3_5b7ha"]
+[ext_resource type="Texture2D" uid="uid://fkx7s4ulcmm6" path="res://Assets/Thrusters/Anim/Thruster2.png" id="4_655yh"]
+[ext_resource type="Script" path="res://Entities/Ship/Thruster/thrusterMemory.gd" id="5_xy2pk"]
+[ext_resource type="Script" path="res://Entities/Ship/Thruster/RayCastMemory.gd" id="6_ox2ay"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_o0spb"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_wycie")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_5b7ha")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_wycie")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_655yh")
+}],
+"loop": true,
+"name": &"default",
+"speed": 30.0
+}]
+
+[node name="Thruster" type="Node2D"]
+z_index = -1
+script = ExtResource("1_7hmg8")
+
+[node name="Layer0" type="AnimatedSprite2D" parent="."]
+position = Vector2(1, 0)
+sprite_frames = SubResource("SpriteFrames_o0spb")
+autoplay = "default"
+script = ExtResource("5_xy2pk")
+metadata/_edit_lock_ = true
+
+[node name="RayCast2D" type="RayCast2D" parent="."]
+position = Vector2(0, -50)
+target_position = Vector2(0, 140)
+script = ExtResource("6_ox2ay")
+
+[node name="RayCast2D2" type="RayCast2D" parent="."]
+position = Vector2(-6, -50)
+target_position = Vector2(0, 120)
+collision_mask = 0
+collide_with_bodies = false
+script = ExtResource("6_ox2ay")
+
+[node name="RayCast2D3" type="RayCast2D" parent="."]
+position = Vector2(7, -50)
+target_position = Vector2(0, 120)
+collision_mask = 0
+collide_with_bodies = false
+script = ExtResource("6_ox2ay")
+
+[node name="RayCast2D4" type="RayCast2D" parent="."]
+position = Vector2(-13, -46)
+target_position = Vector2(0, 100)
+collision_mask = 0
+collide_with_bodies = false
+script = ExtResource("6_ox2ay")
+
+[node name="RayCast2D8" type="RayCast2D" parent="."]
+position = Vector2(14, -46)
+target_position = Vector2(0, 100)
+collision_mask = 0
+collide_with_bodies = false
+script = ExtResource("6_ox2ay")
+
+[node name="RayCast2D5" type="RayCast2D" parent="."]
+position = Vector2(-20, -41)
+target_position = Vector2(0, 70)
+collision_mask = 0
+collide_with_bodies = false
+script = ExtResource("6_ox2ay")
+
+[node name="RayCast2D7" type="RayCast2D" parent="."]
+position = Vector2(21, -40)
+target_position = Vector2(0, 70)
+collision_mask = 0
+collide_with_bodies = false
+script = ExtResource("6_ox2ay")
+
+[node name="RayCast2D6" type="RayCast2D" parent="."]
+position = Vector2(-26, -33)
+target_position = Vector2(0, 40)
+collision_mask = 0
+collide_with_bodies = false
+script = ExtResource("6_ox2ay")
+
+[node name="RayCast2D9" type="RayCast2D" parent="."]
+position = Vector2(26, -34)
+target_position = Vector2(0, 40)
+collision_mask = 0
+collide_with_bodies = false
+script = ExtResource("6_ox2ay")
