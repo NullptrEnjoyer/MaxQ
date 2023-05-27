@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=3 uid="uid://uh1j5lf1cvvp"]
+
+[ext_resource type="Script" path="res://Entities/Debris/RandSize.gd" id="1_ijer2"]
+[ext_resource type="Texture2D" uid="uid://pedqkdji1q8v" path="res://Assets/Asteroid/Asteroid1.png" id="2_3vkdp"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_m6jmv"]
+radius = 27.0
+
+[node name="Asteroid" type="RigidBody2D"]
+mass = 20000.0
+script = ExtResource("1_ijer2")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_3vkdp")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+visible = false
+position = Vector2(1, 0)
+shape = SubResource("CircleShape2D_m6jmv")

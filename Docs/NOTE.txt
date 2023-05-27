@@ -1,0 +1,2 @@
+DrawIO app version 21.2.8
+(https://github.com/jgraph/drawio-desktop/releases)

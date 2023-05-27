@@ -1,0 +1,73 @@
+[gd_scene load_steps=5 format=3 uid="uid://d21wa4aibbgtw"]
+
+[ext_resource type="Script" path="res://Entities/Ship/default_ship.gd" id="1_06euf"]
+[ext_resource type="Texture2D" uid="uid://dxsoud551hlmp" path="res://Assets/Ships/_Debug/Cruiser.png" id="2_h4xnr"]
+[ext_resource type="PackedScene" uid="uid://il4jbbxyc851" path="res://Entities/Ship/Systems/thrusterMovementManager.tscn" id="3_rk3ov"]
+[ext_resource type="PackedScene" uid="uid://dw51ox8nx0nn0" path="res://Entities/Ship/Thruster/thruster.tscn" id="4_cddng"]
+
+[node name="DefaultShip" type="RigidBody2D"]
+mass = 100000.0
+can_sleep = false
+script = ExtResource("1_06euf")
+
+[node name="Vessel" type="Sprite2D" parent="."]
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("2_h4xnr")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+visible = false
+polygon = PackedVector2Array(0, -25, 25, 25, 0, 11, -25, 25)
+
+[node name="thrusterMovementManager" parent="." instance=ExtResource("3_rk3ov")]
+
+[node name="MainThruster" parent="thrusterMovementManager" instance=ExtResource("4_cddng")]
+position = Vector2(0, 35)
+scale = Vector2(0.4, 0.5)
+animate = true
+move_front = true
+
+[node name="BRThruster" parent="thrusterMovementManager" instance=ExtResource("4_cddng")]
+position = Vector2(27, 16)
+rotation = -1.5708
+scale = Vector2(0.1, 0.15)
+power = 16
+move_left = true
+rotate_right = true
+
+[node name="BLThruster" parent="thrusterMovementManager" instance=ExtResource("4_cddng")]
+position = Vector2(-27, 16)
+rotation = 1.5708
+scale = Vector2(0.1, 0.15)
+power = 16
+move_right = true
+rotate_left = true
+
+[node name="TRThruster" parent="thrusterMovementManager" instance=ExtResource("4_cddng")]
+position = Vector2(5, -21)
+rotation = -1.5708
+scale = Vector2(0.06, 0.1)
+power = 13
+move_left = true
+rotate_left = true
+
+[node name="TLThruster" parent="thrusterMovementManager" instance=ExtResource("4_cddng")]
+position = Vector2(-5, -21)
+rotation = 1.5708
+scale = Vector2(0.06, 0.1)
+power = 13
+move_right = true
+rotate_right = true
+
+[node name="RRThruster" parent="thrusterMovementManager" instance=ExtResource("4_cddng")]
+position = Vector2(18, 8)
+rotation = 3.14159
+scale = Vector2(0.1, 0.15)
+power = 16
+move_back = true
+
+[node name="RLThruster" parent="thrusterMovementManager" instance=ExtResource("4_cddng")]
+position = Vector2(-18, 8)
+rotation = 3.14159
+scale = Vector2(0.1, 0.15)
+power = 16
+move_back = true

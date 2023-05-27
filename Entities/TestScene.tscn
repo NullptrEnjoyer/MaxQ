@@ -1,0 +1,1547 @@
+[gd_scene load_steps=3 format=3 uid="uid://40njkkcxq183"]
+
+[ext_resource type="PackedScene" uid="uid://d21wa4aibbgtw" path="res://Entities/Ship/default_ship.tscn" id="2_0jl0b"]
+[ext_resource type="PackedScene" uid="uid://uh1j5lf1cvvp" path="res://Entities/Debris/Asteroid.tscn" id="2_f38rb"]
+
+[node name="Node2D" type="Node2D"]
+position = Vector2(95, -16)
+
+[node name="\'Steroids" type="Node" parent="."]
+
+[node name="Asteroid" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-62, 422)
+
+[node name="Asteroid2" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-54, 538)
+
+[node name="Asteroid3" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-234, 382)
+
+[node name="Asteroid4" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-226, 498)
+
+[node name="Asteroid5" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-84, 128)
+
+[node name="Asteroid6" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-76, 244)
+
+[node name="Asteroid7" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-256, 88)
+
+[node name="Asteroid8" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-248, 204)
+
+[node name="Asteroid9" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-62, 422)
+
+[node name="Asteroid10" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-54, 538)
+
+[node name="Asteroid11" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-234, 382)
+
+[node name="Asteroid12" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-226, 498)
+
+[node name="Asteroid13" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-84, 128)
+
+[node name="Asteroid14" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-76, 244)
+
+[node name="Asteroid15" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-256, 88)
+
+[node name="Asteroid16" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-248, 204)
+
+[node name="Asteroid17" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-462, 522)
+
+[node name="Asteroid18" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-454, 638)
+
+[node name="Asteroid19" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-634, 482)
+
+[node name="Asteroid20" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-626, 598)
+
+[node name="Asteroid21" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-484, 228)
+
+[node name="Asteroid22" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-476, 344)
+
+[node name="Asteroid23" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-656, 188)
+
+[node name="Asteroid24" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-648, 304)
+
+[node name="Asteroid25" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-462, 522)
+
+[node name="Asteroid26" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-454, 638)
+
+[node name="Asteroid27" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-634, 482)
+
+[node name="Asteroid28" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-626, 598)
+
+[node name="Asteroid29" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-484, 228)
+
+[node name="Asteroid30" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-476, 344)
+
+[node name="Asteroid31" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-656, 188)
+
+[node name="Asteroid32" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-648, 304)
+
+[node name="Asteroid33" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-258, -238)
+
+[node name="Asteroid34" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-250, -122)
+
+[node name="Asteroid35" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-430, -278)
+
+[node name="Asteroid36" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-422, -162)
+
+[node name="Asteroid37" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-280, -532)
+
+[node name="Asteroid38" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-272, -416)
+
+[node name="Asteroid39" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-452, -572)
+
+[node name="Asteroid40" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-444, -456)
+
+[node name="Asteroid41" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-258, -238)
+
+[node name="Asteroid42" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-250, -122)
+
+[node name="Asteroid43" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-430, -278)
+
+[node name="Asteroid44" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-422, -162)
+
+[node name="Asteroid45" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-280, -532)
+
+[node name="Asteroid46" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-272, -416)
+
+[node name="Asteroid47" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-452, -572)
+
+[node name="Asteroid48" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-444, -456)
+
+[node name="Asteroid49" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-658, -138)
+
+[node name="Asteroid50" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-650, -22)
+
+[node name="Asteroid51" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-830, -178)
+
+[node name="Asteroid52" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-822, -62)
+
+[node name="Asteroid53" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-680, -432)
+
+[node name="Asteroid54" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-672, -316)
+
+[node name="Asteroid55" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-852, -472)
+
+[node name="Asteroid56" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-844, -356)
+
+[node name="Asteroid57" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-658, -138)
+
+[node name="Asteroid58" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-650, -22)
+
+[node name="Asteroid59" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-830, -178)
+
+[node name="Asteroid60" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-822, -62)
+
+[node name="Asteroid61" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-680, -432)
+
+[node name="Asteroid62" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-672, -316)
+
+[node name="Asteroid63" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-852, -472)
+
+[node name="Asteroid64" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-844, -356)
+
+[node name="Asteroid65" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-894, 706)
+
+[node name="Asteroid66" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-886, 822)
+
+[node name="Asteroid67" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1066, 666)
+
+[node name="Asteroid68" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1058, 782)
+
+[node name="Asteroid69" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-916, 412)
+
+[node name="Asteroid70" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-908, 528)
+
+[node name="Asteroid71" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1088, 372)
+
+[node name="Asteroid72" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1080, 488)
+
+[node name="Asteroid73" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-894, 706)
+
+[node name="Asteroid74" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-886, 822)
+
+[node name="Asteroid75" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1066, 666)
+
+[node name="Asteroid76" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1058, 782)
+
+[node name="Asteroid77" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-916, 412)
+
+[node name="Asteroid78" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-908, 528)
+
+[node name="Asteroid79" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1088, 372)
+
+[node name="Asteroid80" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1080, 488)
+
+[node name="Asteroid81" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1294, 806)
+
+[node name="Asteroid82" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1286, 922)
+
+[node name="Asteroid83" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1466, 766)
+
+[node name="Asteroid84" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1458, 882)
+
+[node name="Asteroid85" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1316, 512)
+
+[node name="Asteroid86" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1308, 628)
+
+[node name="Asteroid87" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1488, 472)
+
+[node name="Asteroid88" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1480, 588)
+
+[node name="Asteroid89" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1294, 806)
+
+[node name="Asteroid90" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1286, 922)
+
+[node name="Asteroid91" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1466, 766)
+
+[node name="Asteroid92" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1458, 882)
+
+[node name="Asteroid93" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1316, 512)
+
+[node name="Asteroid94" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1308, 628)
+
+[node name="Asteroid95" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1488, 472)
+
+[node name="Asteroid96" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1480, 588)
+
+[node name="Asteroid97" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1090, 46)
+
+[node name="Asteroid98" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1082, 162)
+
+[node name="Asteroid99" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1262, 6)
+
+[node name="Asteroid100" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1254, 122)
+
+[node name="Asteroid101" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1112, -248)
+
+[node name="Asteroid102" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1104, -132)
+
+[node name="Asteroid103" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1284, -288)
+
+[node name="Asteroid104" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1276, -172)
+
+[node name="Asteroid105" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1090, 46)
+
+[node name="Asteroid106" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1082, 162)
+
+[node name="Asteroid107" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1262, 6)
+
+[node name="Asteroid108" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1254, 122)
+
+[node name="Asteroid109" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1112, -248)
+
+[node name="Asteroid110" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1104, -132)
+
+[node name="Asteroid111" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1284, -288)
+
+[node name="Asteroid112" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1276, -172)
+
+[node name="Asteroid113" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1490, 146)
+
+[node name="Asteroid114" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1482, 262)
+
+[node name="Asteroid115" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1662, 106)
+
+[node name="Asteroid116" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1654, 222)
+
+[node name="Asteroid117" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1512, -148)
+
+[node name="Asteroid118" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1504, -32)
+
+[node name="Asteroid119" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1684, -188)
+
+[node name="Asteroid120" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1676, -72)
+
+[node name="Asteroid121" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1490, 146)
+
+[node name="Asteroid122" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1482, 262)
+
+[node name="Asteroid123" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1662, 106)
+
+[node name="Asteroid124" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1654, 222)
+
+[node name="Asteroid125" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1512, -148)
+
+[node name="Asteroid126" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1504, -32)
+
+[node name="Asteroid127" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1684, -188)
+
+[node name="Asteroid128" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1676, -72)
+
+[node name="Asteroid129" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(114, 1741)
+
+[node name="Asteroid130" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(122, 1857)
+
+[node name="Asteroid131" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-58, 1701)
+
+[node name="Asteroid132" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-50, 1817)
+
+[node name="Asteroid133" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(92, 1447)
+
+[node name="Asteroid134" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(100, 1563)
+
+[node name="Asteroid135" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-80, 1407)
+
+[node name="Asteroid136" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-72, 1523)
+
+[node name="Asteroid137" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(114, 1741)
+
+[node name="Asteroid138" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(122, 1857)
+
+[node name="Asteroid139" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-58, 1701)
+
+[node name="Asteroid140" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-50, 1817)
+
+[node name="Asteroid141" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(92, 1447)
+
+[node name="Asteroid142" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(100, 1563)
+
+[node name="Asteroid143" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-80, 1407)
+
+[node name="Asteroid144" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-72, 1523)
+
+[node name="Asteroid145" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-286, 1841)
+
+[node name="Asteroid146" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-278, 1957)
+
+[node name="Asteroid147" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-458, 1801)
+
+[node name="Asteroid148" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-450, 1917)
+
+[node name="Asteroid149" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-308, 1547)
+
+[node name="Asteroid150" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-300, 1663)
+
+[node name="Asteroid151" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-480, 1507)
+
+[node name="Asteroid152" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-472, 1623)
+
+[node name="Asteroid153" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-286, 1841)
+
+[node name="Asteroid154" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-278, 1957)
+
+[node name="Asteroid155" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-458, 1801)
+
+[node name="Asteroid156" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-450, 1917)
+
+[node name="Asteroid157" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-308, 1547)
+
+[node name="Asteroid158" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-300, 1663)
+
+[node name="Asteroid159" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-480, 1507)
+
+[node name="Asteroid160" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-472, 1623)
+
+[node name="Asteroid161" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-82, 1081)
+
+[node name="Asteroid162" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-74, 1197)
+
+[node name="Asteroid163" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-254, 1041)
+
+[node name="Asteroid164" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-246, 1157)
+
+[node name="Asteroid165" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-104, 787)
+
+[node name="Asteroid166" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-96, 903)
+
+[node name="Asteroid167" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-276, 747)
+
+[node name="Asteroid168" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-268, 863)
+
+[node name="Asteroid169" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-82, 1081)
+
+[node name="Asteroid170" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-74, 1197)
+
+[node name="Asteroid171" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-254, 1041)
+
+[node name="Asteroid172" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-246, 1157)
+
+[node name="Asteroid173" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-104, 787)
+
+[node name="Asteroid174" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-96, 903)
+
+[node name="Asteroid175" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-276, 747)
+
+[node name="Asteroid176" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-268, 863)
+
+[node name="Asteroid177" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-482, 1181)
+
+[node name="Asteroid178" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-474, 1297)
+
+[node name="Asteroid179" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-654, 1141)
+
+[node name="Asteroid180" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-646, 1257)
+
+[node name="Asteroid181" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-504, 887)
+
+[node name="Asteroid182" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-496, 1003)
+
+[node name="Asteroid183" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-676, 847)
+
+[node name="Asteroid184" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-668, 963)
+
+[node name="Asteroid185" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-482, 1181)
+
+[node name="Asteroid186" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-474, 1297)
+
+[node name="Asteroid187" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-654, 1141)
+
+[node name="Asteroid188" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-646, 1257)
+
+[node name="Asteroid189" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-504, 887)
+
+[node name="Asteroid190" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-496, 1003)
+
+[node name="Asteroid191" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-676, 847)
+
+[node name="Asteroid192" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-668, 963)
+
+[node name="Asteroid193" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-718, 2025)
+
+[node name="Asteroid194" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-710, 2141)
+
+[node name="Asteroid195" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-890, 1985)
+
+[node name="Asteroid196" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-882, 2101)
+
+[node name="Asteroid197" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-740, 1731)
+
+[node name="Asteroid198" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-732, 1847)
+
+[node name="Asteroid199" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-912, 1691)
+
+[node name="Asteroid200" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-904, 1807)
+
+[node name="Asteroid201" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-718, 2025)
+
+[node name="Asteroid202" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-710, 2141)
+
+[node name="Asteroid203" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-890, 1985)
+
+[node name="Asteroid204" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-882, 2101)
+
+[node name="Asteroid205" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-740, 1731)
+
+[node name="Asteroid206" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-732, 1847)
+
+[node name="Asteroid207" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-912, 1691)
+
+[node name="Asteroid208" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-904, 1807)
+
+[node name="Asteroid209" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1118, 2125)
+
+[node name="Asteroid210" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1110, 2241)
+
+[node name="Asteroid211" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1290, 2085)
+
+[node name="Asteroid212" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1282, 2201)
+
+[node name="Asteroid213" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1140, 1831)
+
+[node name="Asteroid214" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1132, 1947)
+
+[node name="Asteroid215" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1312, 1791)
+
+[node name="Asteroid216" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1304, 1907)
+
+[node name="Asteroid217" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1118, 2125)
+
+[node name="Asteroid218" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1110, 2241)
+
+[node name="Asteroid219" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1290, 2085)
+
+[node name="Asteroid220" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1282, 2201)
+
+[node name="Asteroid221" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1140, 1831)
+
+[node name="Asteroid222" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1132, 1947)
+
+[node name="Asteroid223" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1312, 1791)
+
+[node name="Asteroid224" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1304, 1907)
+
+[node name="Asteroid225" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-914, 1365)
+
+[node name="Asteroid226" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-906, 1481)
+
+[node name="Asteroid227" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1086, 1325)
+
+[node name="Asteroid228" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1078, 1441)
+
+[node name="Asteroid229" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-936, 1071)
+
+[node name="Asteroid230" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-928, 1187)
+
+[node name="Asteroid231" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1108, 1031)
+
+[node name="Asteroid232" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1100, 1147)
+
+[node name="Asteroid233" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-914, 1365)
+
+[node name="Asteroid234" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-906, 1481)
+
+[node name="Asteroid235" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1086, 1325)
+
+[node name="Asteroid236" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1078, 1441)
+
+[node name="Asteroid237" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-936, 1071)
+
+[node name="Asteroid238" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-928, 1187)
+
+[node name="Asteroid239" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1108, 1031)
+
+[node name="Asteroid240" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1100, 1147)
+
+[node name="Asteroid241" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1314, 1465)
+
+[node name="Asteroid242" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1306, 1581)
+
+[node name="Asteroid243" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1486, 1425)
+
+[node name="Asteroid244" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1478, 1541)
+
+[node name="Asteroid245" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1336, 1171)
+
+[node name="Asteroid246" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1328, 1287)
+
+[node name="Asteroid247" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1508, 1131)
+
+[node name="Asteroid248" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1500, 1247)
+
+[node name="Asteroid249" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1314, 1465)
+
+[node name="Asteroid250" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1306, 1581)
+
+[node name="Asteroid251" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1486, 1425)
+
+[node name="Asteroid252" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1478, 1541)
+
+[node name="Asteroid253" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1336, 1171)
+
+[node name="Asteroid254" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1328, 1287)
+
+[node name="Asteroid255" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1508, 1131)
+
+[node name="Asteroid256" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1500, 1247)
+
+[node name="Asteroid257" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2136, 593)
+
+[node name="Asteroid258" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2128, 709)
+
+[node name="Asteroid259" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2308, 553)
+
+[node name="Asteroid260" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2300, 669)
+
+[node name="Asteroid261" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2158, 299)
+
+[node name="Asteroid262" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2150, 415)
+
+[node name="Asteroid263" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2330, 259)
+
+[node name="Asteroid264" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2322, 375)
+
+[node name="Asteroid265" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2136, 593)
+
+[node name="Asteroid266" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2128, 709)
+
+[node name="Asteroid267" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2308, 553)
+
+[node name="Asteroid268" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2300, 669)
+
+[node name="Asteroid269" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2158, 299)
+
+[node name="Asteroid270" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2150, 415)
+
+[node name="Asteroid271" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2330, 259)
+
+[node name="Asteroid272" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2322, 375)
+
+[node name="Asteroid273" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2536, 693)
+
+[node name="Asteroid274" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2528, 809)
+
+[node name="Asteroid275" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2708, 653)
+
+[node name="Asteroid276" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2700, 769)
+
+[node name="Asteroid277" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2558, 399)
+
+[node name="Asteroid278" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2550, 515)
+
+[node name="Asteroid279" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2730, 359)
+
+[node name="Asteroid280" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2722, 475)
+
+[node name="Asteroid281" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2536, 693)
+
+[node name="Asteroid282" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2528, 809)
+
+[node name="Asteroid283" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2708, 653)
+
+[node name="Asteroid284" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2700, 769)
+
+[node name="Asteroid285" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2558, 399)
+
+[node name="Asteroid286" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2550, 515)
+
+[node name="Asteroid287" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2730, 359)
+
+[node name="Asteroid288" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2722, 475)
+
+[node name="Asteroid289" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2332, -67)
+
+[node name="Asteroid290" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2324, 49)
+
+[node name="Asteroid291" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2504, -107)
+
+[node name="Asteroid292" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2496, 9)
+
+[node name="Asteroid293" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2354, -361)
+
+[node name="Asteroid294" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2346, -245)
+
+[node name="Asteroid295" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2526, -401)
+
+[node name="Asteroid296" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2518, -285)
+
+[node name="Asteroid297" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2332, -67)
+
+[node name="Asteroid298" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2324, 49)
+
+[node name="Asteroid299" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2504, -107)
+
+[node name="Asteroid300" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2496, 9)
+
+[node name="Asteroid301" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2354, -361)
+
+[node name="Asteroid302" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2346, -245)
+
+[node name="Asteroid303" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2526, -401)
+
+[node name="Asteroid304" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2518, -285)
+
+[node name="Asteroid305" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2732, 33)
+
+[node name="Asteroid306" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2724, 149)
+
+[node name="Asteroid307" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2904, -7)
+
+[node name="Asteroid308" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2896, 109)
+
+[node name="Asteroid309" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2754, -261)
+
+[node name="Asteroid310" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2746, -145)
+
+[node name="Asteroid311" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2926, -301)
+
+[node name="Asteroid312" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2918, -185)
+
+[node name="Asteroid313" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2732, 33)
+
+[node name="Asteroid314" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2724, 149)
+
+[node name="Asteroid315" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2904, -7)
+
+[node name="Asteroid316" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2896, 109)
+
+[node name="Asteroid317" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2754, -261)
+
+[node name="Asteroid318" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2746, -145)
+
+[node name="Asteroid319" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2926, -301)
+
+[node name="Asteroid320" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2918, -185)
+
+[node name="Asteroid321" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2968, 877)
+
+[node name="Asteroid322" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2960, 993)
+
+[node name="Asteroid323" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-3140, 837)
+
+[node name="Asteroid324" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-3132, 953)
+
+[node name="Asteroid325" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2990, 583)
+
+[node name="Asteroid326" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2982, 699)
+
+[node name="Asteroid327" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-3162, 543)
+
+[node name="Asteroid328" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-3154, 659)
+
+[node name="Asteroid329" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2968, 877)
+
+[node name="Asteroid330" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2960, 993)
+
+[node name="Asteroid331" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-3140, 837)
+
+[node name="Asteroid332" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-3132, 953)
+
+[node name="Asteroid333" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2990, 583)
+
+[node name="Asteroid334" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2982, 699)
+
+[node name="Asteroid335" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-3162, 543)
+
+[node name="Asteroid336" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-3154, 659)
+
+[node name="Asteroid337" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-3368, 977)
+
+[node name="Asteroid338" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-3360, 1093)
+
+[node name="Asteroid339" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-3540, 937)
+
+[node name="Asteroid340" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-3532, 1053)
+
+[node name="Asteroid341" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-3390, 683)
+
+[node name="Asteroid342" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-3382, 799)
+
+[node name="Asteroid343" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-3562, 643)
+
+[node name="Asteroid344" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-3554, 759)
+
+[node name="Asteroid345" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-3368, 977)
+
+[node name="Asteroid346" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-3360, 1093)
+
+[node name="Asteroid347" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-3540, 937)
+
+[node name="Asteroid348" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-3532, 1053)
+
+[node name="Asteroid349" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-3390, 683)
+
+[node name="Asteroid350" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-3382, 799)
+
+[node name="Asteroid351" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-3562, 643)
+
+[node name="Asteroid352" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-3554, 759)
+
+[node name="Asteroid353" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-3164, 217)
+
+[node name="Asteroid354" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-3156, 333)
+
+[node name="Asteroid355" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-3336, 177)
+
+[node name="Asteroid356" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-3328, 293)
+
+[node name="Asteroid357" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-3186, -77)
+
+[node name="Asteroid358" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-3178, 39)
+
+[node name="Asteroid359" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-3358, -117)
+
+[node name="Asteroid360" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-3350, -1)
+
+[node name="Asteroid361" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-3164, 217)
+
+[node name="Asteroid362" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-3156, 333)
+
+[node name="Asteroid363" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-3336, 177)
+
+[node name="Asteroid364" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-3328, 293)
+
+[node name="Asteroid365" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-3186, -77)
+
+[node name="Asteroid366" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-3178, 39)
+
+[node name="Asteroid367" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-3358, -117)
+
+[node name="Asteroid368" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-3350, -1)
+
+[node name="Asteroid369" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-3564, 317)
+
+[node name="Asteroid370" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-3556, 433)
+
+[node name="Asteroid371" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-3736, 277)
+
+[node name="Asteroid372" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-3728, 393)
+
+[node name="Asteroid373" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-3586, 23)
+
+[node name="Asteroid374" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-3578, 139)
+
+[node name="Asteroid375" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-3750, 99)
+
+[node name="Asteroid376" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-3564, 317)
+
+[node name="Asteroid377" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-3556, 433)
+
+[node name="Asteroid378" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-3736, 277)
+
+[node name="Asteroid379" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-3728, 393)
+
+[node name="Asteroid380" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-3586, 23)
+
+[node name="Asteroid381" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-3578, 139)
+
+[node name="Asteroid382" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-3750, 99)
+
+[node name="Asteroid383" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1960, 1912)
+
+[node name="Asteroid384" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1952, 2028)
+
+[node name="Asteroid385" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2132, 1872)
+
+[node name="Asteroid386" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2124, 1988)
+
+[node name="Asteroid387" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1982, 1618)
+
+[node name="Asteroid388" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1974, 1734)
+
+[node name="Asteroid389" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2154, 1578)
+
+[node name="Asteroid390" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2146, 1694)
+
+[node name="Asteroid391" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1960, 1912)
+
+[node name="Asteroid392" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1952, 2028)
+
+[node name="Asteroid393" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2132, 1872)
+
+[node name="Asteroid394" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2124, 1988)
+
+[node name="Asteroid395" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1982, 1618)
+
+[node name="Asteroid396" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-1974, 1734)
+
+[node name="Asteroid397" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2154, 1578)
+
+[node name="Asteroid398" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2146, 1694)
+
+[node name="Asteroid399" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2360, 2012)
+
+[node name="Asteroid400" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2352, 2128)
+
+[node name="Asteroid401" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2532, 1972)
+
+[node name="Asteroid402" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2524, 2088)
+
+[node name="Asteroid403" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2382, 1718)
+
+[node name="Asteroid404" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2374, 1834)
+
+[node name="Asteroid405" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2554, 1678)
+
+[node name="Asteroid406" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2546, 1794)
+
+[node name="Asteroid407" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2360, 2012)
+
+[node name="Asteroid408" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2352, 2128)
+
+[node name="Asteroid409" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2532, 1972)
+
+[node name="Asteroid410" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2524, 2088)
+
+[node name="Asteroid411" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2382, 1718)
+
+[node name="Asteroid412" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2374, 1834)
+
+[node name="Asteroid413" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2554, 1678)
+
+[node name="Asteroid414" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2546, 1794)
+
+[node name="Asteroid415" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2156, 1252)
+
+[node name="Asteroid416" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2148, 1368)
+
+[node name="Asteroid417" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2328, 1212)
+
+[node name="Asteroid418" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2320, 1328)
+
+[node name="Asteroid419" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2178, 958)
+
+[node name="Asteroid420" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2170, 1074)
+
+[node name="Asteroid421" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2350, 918)
+
+[node name="Asteroid422" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2342, 1034)
+
+[node name="Asteroid423" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2156, 1252)
+
+[node name="Asteroid424" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2148, 1368)
+
+[node name="Asteroid425" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2328, 1212)
+
+[node name="Asteroid426" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2320, 1328)
+
+[node name="Asteroid427" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2178, 958)
+
+[node name="Asteroid428" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2170, 1074)
+
+[node name="Asteroid429" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2350, 918)
+
+[node name="Asteroid430" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2342, 1034)
+
+[node name="Asteroid431" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2556, 1352)
+
+[node name="Asteroid432" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2548, 1468)
+
+[node name="Asteroid433" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2728, 1312)
+
+[node name="Asteroid434" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2720, 1428)
+
+[node name="Asteroid435" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2578, 1058)
+
+[node name="Asteroid436" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2570, 1174)
+
+[node name="Asteroid437" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2750, 1018)
+
+[node name="Asteroid438" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2742, 1134)
+
+[node name="Asteroid439" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2556, 1352)
+
+[node name="Asteroid440" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2548, 1468)
+
+[node name="Asteroid441" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2728, 1312)
+
+[node name="Asteroid442" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2720, 1428)
+
+[node name="Asteroid443" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2578, 1058)
+
+[node name="Asteroid444" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2570, 1174)
+
+[node name="Asteroid445" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2750, 1018)
+
+[node name="Asteroid446" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2742, 1134)
+
+[node name="Asteroid447" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2792, 2196)
+
+[node name="Asteroid448" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2784, 2312)
+
+[node name="Asteroid449" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2964, 2156)
+
+[node name="Asteroid450" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2956, 2272)
+
+[node name="Asteroid451" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2814, 1902)
+
+[node name="Asteroid452" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2806, 2018)
+
+[node name="Asteroid453" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2986, 1862)
+
+[node name="Asteroid454" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2978, 1978)
+
+[node name="Asteroid455" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2792, 2196)
+
+[node name="Asteroid456" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2784, 2312)
+
+[node name="Asteroid457" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2964, 2156)
+
+[node name="Asteroid458" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2956, 2272)
+
+[node name="Asteroid459" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2814, 1902)
+
+[node name="Asteroid460" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2806, 2018)
+
+[node name="Asteroid461" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2986, 1862)
+
+[node name="Asteroid462" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2978, 1978)
+
+[node name="Asteroid463" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-3192, 2296)
+
+[node name="Asteroid464" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-3184, 2412)
+
+[node name="Asteroid465" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-3364, 2256)
+
+[node name="Asteroid466" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-3356, 2372)
+
+[node name="Asteroid467" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-3214, 2002)
+
+[node name="Asteroid468" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-3206, 2118)
+
+[node name="Asteroid469" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-3386, 1962)
+
+[node name="Asteroid470" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-3378, 2078)
+
+[node name="Asteroid471" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-3192, 2296)
+
+[node name="Asteroid472" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-3184, 2412)
+
+[node name="Asteroid473" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-3364, 2256)
+
+[node name="Asteroid474" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-3356, 2372)
+
+[node name="Asteroid475" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-3214, 2002)
+
+[node name="Asteroid476" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-3206, 2118)
+
+[node name="Asteroid477" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-3386, 1962)
+
+[node name="Asteroid478" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-3378, 2078)
+
+[node name="Asteroid479" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2988, 1536)
+
+[node name="Asteroid480" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2980, 1652)
+
+[node name="Asteroid481" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-3160, 1496)
+
+[node name="Asteroid482" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-3152, 1612)
+
+[node name="Asteroid483" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-3010, 1242)
+
+[node name="Asteroid484" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-3002, 1358)
+
+[node name="Asteroid485" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-3182, 1202)
+
+[node name="Asteroid486" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-3174, 1318)
+
+[node name="Asteroid487" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2988, 1536)
+
+[node name="Asteroid488" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-2980, 1652)
+
+[node name="Asteroid489" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-3160, 1496)
+
+[node name="Asteroid490" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-3152, 1612)
+
+[node name="Asteroid491" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-3010, 1242)
+
+[node name="Asteroid492" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-3002, 1358)
+
+[node name="Asteroid493" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-3182, 1202)
+
+[node name="Asteroid494" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-3174, 1318)
+
+[node name="Asteroid495" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-3388, 1636)
+
+[node name="Asteroid496" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-3380, 1752)
+
+[node name="Asteroid497" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-3560, 1596)
+
+[node name="Asteroid498" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-3552, 1712)
+
+[node name="Asteroid499" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-3410, 1342)
+
+[node name="Asteroid500" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-3402, 1458)
+
+[node name="Asteroid501" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-3582, 1302)
+
+[node name="Asteroid502" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-3574, 1418)
+
+[node name="Asteroid503" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-3388, 1636)
+
+[node name="Asteroid504" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-3380, 1752)
+
+[node name="Asteroid505" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-3560, 1596)
+
+[node name="Asteroid506" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-3552, 1712)
+
+[node name="Asteroid507" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-3410, 1342)
+
+[node name="Asteroid508" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-3402, 1458)
+
+[node name="Asteroid509" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-3582, 1302)
+
+[node name="Asteroid510" parent="\'Steroids" instance=ExtResource("2_f38rb")]
+position = Vector2(-3574, 1418)
+
+[node name="Shippies" type="Node" parent="."]
+
+[node name="DefaultShip" parent="." instance=ExtResource("2_0jl0b")]
+position = Vector2(115, 358)
+player = true
+
+[node name="Camera2D" type="Camera2D" parent="DefaultShip"]
