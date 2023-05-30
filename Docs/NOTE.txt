@@ -1,2 +1,3 @@
 DrawIO app version 21.2.8
 (https://github.com/jgraph/drawio-desktop/releases)
+Download seperately an replace with the provided version (it's just there in case of compatibility issues and blocked downloads)
