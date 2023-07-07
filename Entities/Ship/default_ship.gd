@@ -2,7 +2,7 @@ extends RigidBody2D
 
 @export var player: bool = 0
 
-@onready var movement_manager: ThrusterMovementManager = $thrusterMovementManager
+@onready var movement_manager: ThrusterMovementManagerTemp = $thrusterMovementManager
 
 # Called when the node enters the scene tree for the first time.
 func _ready():

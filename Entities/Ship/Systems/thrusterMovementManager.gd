@@ -1,5 +1,5 @@
 extends Subsystem
-class_name ThrusterMovementManager
+class_name ThrusterMovementManagerTemp
 
 @export_group("Manager Properties")
 ##How far up the parent tree the actual physics object is
@@ -19,8 +19,6 @@ var main_body: RigidBody2D
 
 var total_force_vec: Vector2 = Vector2()
 var total_torque: float = 0
-
-var pass_arr: Array = Array()
 
 #var frame_skip: int = 2
 #var spread_load: int = FrameSkip.get_frame_ticket("Thruster", frame_skip)
@@ -56,8 +54,6 @@ func rotate_right():
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	pass_arr.resize(3)
-	
 	depth = depth - 1;
 	
 	main_body = get_parent()
