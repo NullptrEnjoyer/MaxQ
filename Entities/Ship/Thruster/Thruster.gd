@@ -1,6 +1,6 @@
 extends Component
 
-class_name Thruster
+class_name ThrusterTemp
 
 @export_group("Thruster Properties")
 @export var power: int = 100
