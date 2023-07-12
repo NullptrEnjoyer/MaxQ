@@ -23,51 +23,110 @@ polygon = PackedVector2Array(0, -25, 25, 25, 0, 11, -25, 25)
 [node name="MainThruster" parent="thrusterMovementManager" instance=ExtResource("4_cddng")]
 position = Vector2(0, 35)
 scale = Vector2(0.4, 0.5)
+power = null
+number_of_sprites = null
+color = null
 animate = true
 move_front = true
+move_back = null
+move_left = null
+move_right = null
+rotate_left = null
+rotate_right = null
+precompute = null
 
 [node name="BRThruster" parent="thrusterMovementManager" instance=ExtResource("4_cddng")]
 position = Vector2(27, 16)
 rotation = -1.5708
 scale = Vector2(0.1, 0.15)
 power = 16
+number_of_sprites = null
+color = null
+animate = null
+move_front = null
+move_back = null
 move_left = true
+move_right = null
+rotate_left = null
 rotate_right = true
+precompute = null
 
 [node name="BLThruster" parent="thrusterMovementManager" instance=ExtResource("4_cddng")]
 position = Vector2(-27, 16)
 rotation = 1.5708
 scale = Vector2(0.1, 0.15)
 power = 16
+number_of_sprites = null
+color = null
+animate = null
+move_front = null
+move_back = null
+move_left = null
 move_right = true
 rotate_left = true
+rotate_right = null
+precompute = null
 
 [node name="TRThruster" parent="thrusterMovementManager" instance=ExtResource("4_cddng")]
 position = Vector2(5, -21)
 rotation = -1.5708
 scale = Vector2(0.06, 0.1)
 power = 13
+number_of_sprites = null
+color = null
+animate = null
+move_front = null
+move_back = null
 move_left = true
+move_right = null
 rotate_left = true
+rotate_right = null
+precompute = null
 
 [node name="TLThruster" parent="thrusterMovementManager" instance=ExtResource("4_cddng")]
 position = Vector2(-5, -21)
 rotation = 1.5708
 scale = Vector2(0.06, 0.1)
 power = 13
+number_of_sprites = null
+color = null
+animate = null
+move_front = null
+move_back = null
+move_left = null
 move_right = true
+rotate_left = null
 rotate_right = true
+precompute = null
 
 [node name="RRThruster" parent="thrusterMovementManager" instance=ExtResource("4_cddng")]
 position = Vector2(18, 8)
 rotation = 3.14159
 scale = Vector2(0.1, 0.15)
 power = 16
+number_of_sprites = null
+color = null
+animate = null
+move_front = null
 move_back = true
+move_left = null
+move_right = null
+rotate_left = null
+rotate_right = null
+precompute = null
 
 [node name="RLThruster" parent="thrusterMovementManager" instance=ExtResource("4_cddng")]
 position = Vector2(-18, 8)
 rotation = 3.14159
 scale = Vector2(0.1, 0.15)
 power = 16
+number_of_sprites = null
+color = null
+animate = null
+move_front = null
 move_back = true
+move_left = null
+move_right = null
+rotate_left = null
+rotate_right = null
+precompute = null

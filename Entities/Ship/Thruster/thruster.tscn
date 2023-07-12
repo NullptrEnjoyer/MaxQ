@@ -30,6 +30,17 @@ animations = [{
 [node name="Thruster" type="Node2D"]
 z_index = -1
 script = ExtResource("1_7hmg8")
+power = null
+number_of_sprites = null
+color = null
+animate = null
+move_front = null
+move_back = null
+move_left = null
+move_right = null
+rotate_left = null
+rotate_right = null
+precompute = null
 
 [node name="Layer0" type="AnimatedSprite2D" parent="."]
 position = Vector2(1, 0)

@@ -1,5 +1,3 @@
-extends Component
-
 class_name ThrusterTemp
 
 @export_group("Thruster Properties")
