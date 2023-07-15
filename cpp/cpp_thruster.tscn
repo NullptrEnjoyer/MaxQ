@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://cjbes0gm0mv6k"]
+
+[ext_resource type="Script" path="res://cpp/cpp_thruster.gd" id="1_5f4eh"]
+[ext_resource type="Texture2D" uid="uid://bcrpmph7sxpho" path="res://Assets/Thrusters/Thruster.png" id="2_bn0ti"]
+
+[node name="cpp_thruster" type="Thruster"]
+script = ExtResource("1_5f4eh")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_bn0ti")

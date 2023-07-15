@@ -1,0 +1,76 @@
+[gd_scene load_steps=3 format=3 uid="uid://pm1reecoiieh"]
+
+[ext_resource type="PackedScene" uid="uid://cjbes0gm0mv6k" path="res://cpp/cpp_thruster.tscn" id="1_4glxg"]
+[ext_resource type="Script" path="res://cpp/ThrusterMovementController.gd" id="1_g1e6l"]
+
+[node name="cpp_ship" type="MaxQRigidBody2D"]
+mass = 100000.0
+can_sleep = false
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+visible = false
+polygon = PackedVector2Array(-25, 25, 0, -25, 25, 25, 0, 10)
+
+[node name="Polygon2D" type="Polygon2D" parent="."]
+polygon = PackedVector2Array(-25, 25, 0, -25, 25, 25, 0, 10)
+
+[node name="ComponentSorter" type="ComponentSorter" parent="."]
+z_index = -10
+
+[node name="ThrusterMovementController" type="ThrusterMovementController" parent="ComponentSorter"]
+script = ExtResource("1_g1e6l")
+
+[node name="Thrusters" type="Node2D" parent="ComponentSorter"]
+
+[node name="main_cpp_thruster" parent="ComponentSorter/Thrusters" instance=ExtResource("1_4glxg")]
+position = Vector2(0, 35)
+scale = Vector2(0.4, 0.5)
+power = 100
+is_main_engine = true
+move_front = true
+
+[node name="BR_cpp_thruster" parent="ComponentSorter/Thrusters" instance=ExtResource("1_4glxg")]
+position = Vector2(27, 16)
+rotation = -1.5708
+scale = Vector2(0.1, 0.15)
+power = 16
+move_left = true
+rotate_right = true
+
+[node name="TR_cpp_thruster" parent="ComponentSorter/Thrusters" instance=ExtResource("1_4glxg")]
+position = Vector2(5, -21)
+rotation = -1.5708
+scale = Vector2(0.06, 0.1)
+power = 16
+move_left = true
+rotate_left = true
+
+[node name="TL_cpp_thruster" parent="ComponentSorter/Thrusters" instance=ExtResource("1_4glxg")]
+position = Vector2(-5, -21)
+rotation = -4.71239
+scale = Vector2(0.06, 0.1)
+power = 16
+move_right = true
+rotate_right = true
+
+[node name="BL_cpp_thruster" parent="ComponentSorter/Thrusters" instance=ExtResource("1_4glxg")]
+position = Vector2(-27, 16)
+rotation = -4.71239
+scale = Vector2(0.1, 0.15)
+power = 16
+move_right = true
+rotate_left = true
+
+[node name="BLR_cpp_thruster" parent="ComponentSorter/Thrusters" instance=ExtResource("1_4glxg")]
+position = Vector2(-18, 8)
+rotation = -3.14159
+scale = Vector2(0.1, 0.15)
+power = 16
+move_back = true
+
+[node name="BRR_cpp_thruster" parent="ComponentSorter/Thrusters" instance=ExtResource("1_4glxg")]
+position = Vector2(18, 8)
+rotation = -3.14159
+scale = Vector2(0.1, 0.15)
+power = 16
+move_back = true
