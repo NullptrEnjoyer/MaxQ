@@ -778,8 +778,2405 @@ position = Vector2(-1500, 1247)
 
 [node name="Shippies" type="Node" parent="."]
 
-[node name="DefaultShip" parent="." instance=ExtResource("2_0jl0b")]
-position = Vector2(115, 358)
+[node name="DefaultShip2" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1632, 2429)
 player = true
+
+[node name="DefaultShip3" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1557, 2433)
+player = true
+
+[node name="DefaultShip4" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1479, 2429)
+player = true
+
+[node name="DefaultShip5" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1408, 2440)
+player = true
+
+[node name="DefaultShip6" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1336, 2429)
+player = true
+
+[node name="DefaultShip7" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1261, 2433)
+player = true
+
+[node name="DefaultShip8" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1183, 2429)
+player = true
+
+[node name="DefaultShip9" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1112, 2440)
+player = true
+
+[node name="DefaultShip10" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1037, 2440)
+player = true
+
+[node name="DefaultShip11" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-962, 2444)
+player = true
+
+[node name="DefaultShip12" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-884, 2440)
+player = true
+
+[node name="DefaultShip13" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-813, 2451)
+player = true
+
+[node name="DefaultShip14" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-741, 2440)
+player = true
+
+[node name="DefaultShip15" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-666, 2444)
+player = true
+
+[node name="DefaultShip16" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-588, 2440)
+player = true
+
+[node name="DefaultShip17" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-517, 2451)
+player = true
+
+[node name="DefaultShip18" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-424, 2425)
+player = true
+
+[node name="DefaultShip19" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-349, 2429)
+player = true
+
+[node name="DefaultShip20" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-271, 2425)
+player = true
+
+[node name="DefaultShip21" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-200, 2436)
+player = true
+
+[node name="DefaultShip22" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-128, 2425)
+player = true
+
+[node name="DefaultShip23" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-53, 2429)
+player = true
+
+[node name="DefaultShip24" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(25, 2425)
+player = true
+
+[node name="DefaultShip25" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(96, 2436)
+player = true
+
+[node name="DefaultShip26" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(171, 2436)
+player = true
+
+[node name="DefaultShip27" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1628, 2532)
+player = true
+
+[node name="DefaultShip28" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1553, 2536)
+player = true
+
+[node name="DefaultShip29" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1475, 2532)
+player = true
+
+[node name="DefaultShip30" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1404, 2543)
+player = true
+
+[node name="DefaultShip31" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1332, 2532)
+player = true
+
+[node name="DefaultShip32" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1257, 2536)
+player = true
+
+[node name="DefaultShip33" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1179, 2532)
+player = true
+
+[node name="DefaultShip34" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1108, 2543)
+player = true
+
+[node name="DefaultShip35" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1033, 2543)
+player = true
+
+[node name="DefaultShip36" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-958, 2547)
+player = true
+
+[node name="DefaultShip37" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-880, 2543)
+player = true
+
+[node name="DefaultShip38" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-809, 2554)
+player = true
+
+[node name="DefaultShip39" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-737, 2543)
+player = true
+
+[node name="DefaultShip40" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-662, 2547)
+player = true
+
+[node name="DefaultShip41" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-584, 2543)
+player = true
+
+[node name="DefaultShip42" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-513, 2554)
+player = true
+
+[node name="DefaultShip43" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-420, 2528)
+player = true
+
+[node name="DefaultShip44" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-345, 2532)
+player = true
+
+[node name="DefaultShip45" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-267, 2528)
+player = true
+
+[node name="DefaultShip46" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-196, 2539)
+player = true
+
+[node name="DefaultShip47" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-124, 2528)
+player = true
+
+[node name="DefaultShip48" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-49, 2532)
+player = true
+
+[node name="DefaultShip49" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(29, 2528)
+player = true
+
+[node name="DefaultShip50" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(100, 2539)
+player = true
+
+[node name="DefaultShip51" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(175, 2539)
+player = true
+
+[node name="DefaultShip52" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1625, 2632)
+player = true
+
+[node name="DefaultShip53" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1550, 2636)
+player = true
+
+[node name="DefaultShip54" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1472, 2632)
+player = true
+
+[node name="DefaultShip55" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1401, 2643)
+player = true
+
+[node name="DefaultShip56" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1329, 2632)
+player = true
+
+[node name="DefaultShip57" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1254, 2636)
+player = true
+
+[node name="DefaultShip58" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1176, 2632)
+player = true
+
+[node name="DefaultShip59" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1105, 2643)
+player = true
+
+[node name="DefaultShip60" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1030, 2643)
+player = true
+
+[node name="DefaultShip61" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-955, 2647)
+player = true
+
+[node name="DefaultShip62" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-877, 2643)
+player = true
+
+[node name="DefaultShip63" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-806, 2654)
+player = true
+
+[node name="DefaultShip64" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-734, 2643)
+player = true
+
+[node name="DefaultShip65" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-659, 2647)
+player = true
+
+[node name="DefaultShip66" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-581, 2643)
+player = true
+
+[node name="DefaultShip67" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-510, 2654)
+player = true
+
+[node name="DefaultShip68" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-417, 2628)
+player = true
+
+[node name="DefaultShip69" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-342, 2632)
+player = true
+
+[node name="DefaultShip70" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-264, 2628)
+player = true
+
+[node name="DefaultShip71" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-193, 2639)
+player = true
+
+[node name="DefaultShip72" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-121, 2628)
+player = true
+
+[node name="DefaultShip73" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-46, 2632)
+player = true
+
+[node name="DefaultShip74" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(32, 2628)
+player = true
+
+[node name="DefaultShip75" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(103, 2639)
+player = true
+
+[node name="DefaultShip76" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(178, 2639)
+player = true
+
+[node name="DefaultShip77" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1621, 2735)
+player = true
+
+[node name="DefaultShip78" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1546, 2739)
+player = true
+
+[node name="DefaultShip79" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1468, 2735)
+player = true
+
+[node name="DefaultShip80" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1397, 2746)
+player = true
+
+[node name="DefaultShip81" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1325, 2735)
+player = true
+
+[node name="DefaultShip82" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1250, 2739)
+player = true
+
+[node name="DefaultShip83" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1172, 2735)
+player = true
+
+[node name="DefaultShip84" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1101, 2746)
+player = true
+
+[node name="DefaultShip85" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1026, 2746)
+player = true
+
+[node name="DefaultShip86" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-951, 2750)
+player = true
+
+[node name="DefaultShip87" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-873, 2746)
+player = true
+
+[node name="DefaultShip88" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-802, 2757)
+player = true
+
+[node name="DefaultShip89" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-730, 2746)
+player = true
+
+[node name="DefaultShip90" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-655, 2750)
+player = true
+
+[node name="DefaultShip91" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-577, 2746)
+player = true
+
+[node name="DefaultShip92" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-506, 2757)
+player = true
+
+[node name="DefaultShip93" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-413, 2731)
+player = true
+
+[node name="DefaultShip124" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-421, 2824)
+player = true
+
+[node name="DefaultShip94" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-338, 2735)
+player = true
+
+[node name="DefaultShip95" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-260, 2731)
+player = true
+
+[node name="DefaultShip123" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-255, 2830)
+player = true
+
+[node name="DefaultShip96" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-189, 2742)
+player = true
+
+[node name="DefaultShip97" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-117, 2731)
+player = true
+
+[node name="DefaultShip125" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-114, 2840)
+player = true
+
+[node name="DefaultShip98" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-42, 2735)
+player = true
+
+[node name="DefaultShip99" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(36, 2731)
+player = true
+
+[node name="DefaultShip126" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(33, 2830)
+player = true
+
+[node name="DefaultShip100" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(107, 2742)
+player = true
+
+[node name="DefaultShip101" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(182, 2742)
+player = true
+
+[node name="DefaultShip102" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1614, 2828)
+player = true
+
+[node name="DefaultShip103" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1539, 2832)
+player = true
+
+[node name="DefaultShip104" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1461, 2828)
+player = true
+
+[node name="DefaultShip105" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1390, 2839)
+player = true
+
+[node name="DefaultShip106" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1318, 2828)
+player = true
+
+[node name="DefaultShip107" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1243, 2832)
+player = true
+
+[node name="DefaultShip108" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1165, 2828)
+player = true
+
+[node name="DefaultShip109" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1094, 2839)
+player = true
+
+[node name="DefaultShip110" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1019, 2839)
+player = true
+
+[node name="DefaultShip111" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-944, 2843)
+player = true
+
+[node name="DefaultShip112" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-866, 2839)
+player = true
+
+[node name="DefaultShip113" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-795, 2850)
+player = true
+
+[node name="DefaultShip114" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-723, 2839)
+player = true
+
+[node name="DefaultShip115" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-648, 2843)
+player = true
+
+[node name="DefaultShip116" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-570, 2839)
+player = true
+
+[node name="DefaultShip117" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-499, 2850)
+player = true
+
+[node name="DefaultShip118" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-331, 2828)
+player = true
+
+[node name="DefaultShip119" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-182, 2835)
+player = true
+
+[node name="DefaultShip120" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-35, 2828)
+player = true
+
+[node name="DefaultShip121" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(114, 2835)
+player = true
+
+[node name="DefaultShip122" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(189, 2835)
+player = true
+
+[node name="DefaultShip127" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1640, 3014)
+player = true
+
+[node name="DefaultShip128" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1565, 3018)
+player = true
+
+[node name="DefaultShip129" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1487, 3014)
+player = true
+
+[node name="DefaultShip130" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1416, 3025)
+player = true
+
+[node name="DefaultShip131" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1344, 3014)
+player = true
+
+[node name="DefaultShip132" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1269, 3018)
+player = true
+
+[node name="DefaultShip133" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1191, 3014)
+player = true
+
+[node name="DefaultShip134" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1120, 3025)
+player = true
+
+[node name="DefaultShip135" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1045, 3025)
+player = true
+
+[node name="DefaultShip136" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-970, 3029)
+player = true
+
+[node name="DefaultShip137" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-892, 3025)
+player = true
+
+[node name="DefaultShip138" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-821, 3036)
+player = true
+
+[node name="DefaultShip139" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-749, 3025)
+player = true
+
+[node name="DefaultShip140" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-674, 3029)
+player = true
+
+[node name="DefaultShip141" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-596, 3025)
+player = true
+
+[node name="DefaultShip142" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-525, 3036)
+player = true
+
+[node name="DefaultShip143" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-432, 3010)
+player = true
+
+[node name="DefaultShip144" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-357, 3014)
+player = true
+
+[node name="DefaultShip145" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-279, 3010)
+player = true
+
+[node name="DefaultShip146" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-208, 3021)
+player = true
+
+[node name="DefaultShip147" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-136, 3010)
+player = true
+
+[node name="DefaultShip148" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-61, 3014)
+player = true
+
+[node name="DefaultShip149" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(17, 3010)
+player = true
+
+[node name="DefaultShip150" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(88, 3021)
+player = true
+
+[node name="DefaultShip151" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(163, 3021)
+player = true
+
+[node name="DefaultShip152" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1636, 3117)
+player = true
+
+[node name="DefaultShip153" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1561, 3121)
+player = true
+
+[node name="DefaultShip154" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1483, 3117)
+player = true
+
+[node name="DefaultShip155" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1412, 3128)
+player = true
+
+[node name="DefaultShip156" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1340, 3117)
+player = true
+
+[node name="DefaultShip157" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1265, 3121)
+player = true
+
+[node name="DefaultShip158" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1187, 3117)
+player = true
+
+[node name="DefaultShip159" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1116, 3128)
+player = true
+
+[node name="DefaultShip160" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1041, 3128)
+player = true
+
+[node name="DefaultShip161" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-966, 3132)
+player = true
+
+[node name="DefaultShip162" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-888, 3128)
+player = true
+
+[node name="DefaultShip163" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-817, 3139)
+player = true
+
+[node name="DefaultShip164" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-745, 3128)
+player = true
+
+[node name="DefaultShip165" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-670, 3132)
+player = true
+
+[node name="DefaultShip166" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-592, 3128)
+player = true
+
+[node name="DefaultShip167" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-521, 3139)
+player = true
+
+[node name="DefaultShip168" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-428, 3113)
+player = true
+
+[node name="DefaultShip169" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-353, 3117)
+player = true
+
+[node name="DefaultShip170" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-275, 3113)
+player = true
+
+[node name="DefaultShip171" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-204, 3124)
+player = true
+
+[node name="DefaultShip172" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-132, 3113)
+player = true
+
+[node name="DefaultShip173" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-57, 3117)
+player = true
+
+[node name="DefaultShip174" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(21, 3113)
+player = true
+
+[node name="DefaultShip175" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(92, 3124)
+player = true
+
+[node name="DefaultShip176" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(167, 3124)
+player = true
+
+[node name="DefaultShip177" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1633, 3217)
+player = true
+
+[node name="DefaultShip178" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1558, 3221)
+player = true
+
+[node name="DefaultShip179" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1480, 3217)
+player = true
+
+[node name="DefaultShip180" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1409, 3228)
+player = true
+
+[node name="DefaultShip181" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1337, 3217)
+player = true
+
+[node name="DefaultShip182" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1262, 3221)
+player = true
+
+[node name="DefaultShip183" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1184, 3217)
+player = true
+
+[node name="DefaultShip184" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1113, 3228)
+player = true
+
+[node name="DefaultShip185" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1038, 3228)
+player = true
+
+[node name="DefaultShip186" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-963, 3232)
+player = true
+
+[node name="DefaultShip187" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-885, 3228)
+player = true
+
+[node name="DefaultShip188" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-814, 3239)
+player = true
+
+[node name="DefaultShip189" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-742, 3228)
+player = true
+
+[node name="DefaultShip190" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-667, 3232)
+player = true
+
+[node name="DefaultShip191" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-589, 3228)
+player = true
+
+[node name="DefaultShip192" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-518, 3239)
+player = true
+
+[node name="DefaultShip193" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-425, 3213)
+player = true
+
+[node name="DefaultShip194" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-350, 3217)
+player = true
+
+[node name="DefaultShip195" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-272, 3213)
+player = true
+
+[node name="DefaultShip196" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-201, 3224)
+player = true
+
+[node name="DefaultShip197" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-129, 3213)
+player = true
+
+[node name="DefaultShip198" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-54, 3217)
+player = true
+
+[node name="DefaultShip199" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(24, 3213)
+player = true
+
+[node name="DefaultShip200" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(95, 3224)
+player = true
+
+[node name="DefaultShip201" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(170, 3224)
+player = true
+
+[node name="DefaultShip202" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1629, 3320)
+player = true
+
+[node name="DefaultShip203" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1554, 3324)
+player = true
+
+[node name="DefaultShip204" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1476, 3320)
+player = true
+
+[node name="DefaultShip205" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1405, 3331)
+player = true
+
+[node name="DefaultShip206" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1333, 3320)
+player = true
+
+[node name="DefaultShip207" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1258, 3324)
+player = true
+
+[node name="DefaultShip208" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1180, 3320)
+player = true
+
+[node name="DefaultShip209" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1109, 3331)
+player = true
+
+[node name="DefaultShip210" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1034, 3331)
+player = true
+
+[node name="DefaultShip211" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-959, 3335)
+player = true
+
+[node name="DefaultShip212" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-881, 3331)
+player = true
+
+[node name="DefaultShip213" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-810, 3342)
+player = true
+
+[node name="DefaultShip214" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-738, 3331)
+player = true
+
+[node name="DefaultShip215" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-663, 3335)
+player = true
+
+[node name="DefaultShip216" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-585, 3331)
+player = true
+
+[node name="DefaultShip217" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-514, 3342)
+player = true
+
+[node name="DefaultShip218" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-421, 3316)
+player = true
+
+[node name="DefaultShip219" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-429, 3409)
+player = true
+
+[node name="DefaultShip220" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-346, 3320)
+player = true
+
+[node name="DefaultShip221" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-268, 3316)
+player = true
+
+[node name="DefaultShip222" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-263, 3415)
+player = true
+
+[node name="DefaultShip223" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-197, 3327)
+player = true
+
+[node name="DefaultShip224" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-125, 3316)
+player = true
+
+[node name="DefaultShip225" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-122, 3425)
+player = true
+
+[node name="DefaultShip226" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-50, 3320)
+player = true
+
+[node name="DefaultShip227" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(28, 3316)
+player = true
+
+[node name="DefaultShip228" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(25, 3415)
+player = true
+
+[node name="DefaultShip229" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(99, 3327)
+player = true
+
+[node name="DefaultShip230" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(174, 3327)
+player = true
+
+[node name="DefaultShip231" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1622, 3413)
+player = true
+
+[node name="DefaultShip232" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1547, 3417)
+player = true
+
+[node name="DefaultShip233" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1469, 3413)
+player = true
+
+[node name="DefaultShip234" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1398, 3424)
+player = true
+
+[node name="DefaultShip235" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1326, 3413)
+player = true
+
+[node name="DefaultShip236" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1251, 3417)
+player = true
+
+[node name="DefaultShip237" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1173, 3413)
+player = true
+
+[node name="DefaultShip238" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1102, 3424)
+player = true
+
+[node name="DefaultShip239" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1027, 3424)
+player = true
+
+[node name="DefaultShip240" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-952, 3428)
+player = true
+
+[node name="DefaultShip241" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-874, 3424)
+player = true
+
+[node name="DefaultShip242" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-803, 3435)
+player = true
+
+[node name="DefaultShip243" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-731, 3424)
+player = true
+
+[node name="DefaultShip244" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-656, 3428)
+player = true
+
+[node name="DefaultShip245" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-578, 3424)
+player = true
+
+[node name="DefaultShip246" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-507, 3435)
+player = true
+
+[node name="DefaultShip247" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-339, 3413)
+player = true
+
+[node name="DefaultShip248" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-190, 3420)
+player = true
+
+[node name="DefaultShip249" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-43, 3413)
+player = true
+
+[node name="DefaultShip250" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(106, 3420)
+player = true
+
+[node name="DefaultShip251" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(181, 3420)
+player = true
+
+[node name="DefaultShip252" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1640, 3580)
+player = true
+
+[node name="DefaultShip253" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1565, 3584)
+player = true
+
+[node name="DefaultShip254" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1487, 3580)
+player = true
+
+[node name="DefaultShip255" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1416, 3591)
+player = true
+
+[node name="DefaultShip256" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1344, 3580)
+player = true
+
+[node name="DefaultShip257" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1269, 3584)
+player = true
+
+[node name="DefaultShip258" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1191, 3580)
+player = true
+
+[node name="DefaultShip259" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1120, 3591)
+player = true
+
+[node name="DefaultShip260" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1045, 3591)
+player = true
+
+[node name="DefaultShip261" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-970, 3595)
+player = true
+
+[node name="DefaultShip262" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-892, 3591)
+player = true
+
+[node name="DefaultShip263" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-821, 3602)
+player = true
+
+[node name="DefaultShip264" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-749, 3591)
+player = true
+
+[node name="DefaultShip265" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-674, 3595)
+player = true
+
+[node name="DefaultShip266" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-596, 3591)
+player = true
+
+[node name="DefaultShip267" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-525, 3602)
+player = true
+
+[node name="DefaultShip268" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-432, 3576)
+player = true
+
+[node name="DefaultShip269" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-357, 3580)
+player = true
+
+[node name="DefaultShip270" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-279, 3576)
+player = true
+
+[node name="DefaultShip271" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-208, 3587)
+player = true
+
+[node name="DefaultShip272" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-136, 3576)
+player = true
+
+[node name="DefaultShip273" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-61, 3580)
+player = true
+
+[node name="DefaultShip274" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(17, 3576)
+player = true
+
+[node name="DefaultShip275" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(88, 3587)
+player = true
+
+[node name="DefaultShip276" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(163, 3587)
+player = true
+
+[node name="DefaultShip277" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1636, 3683)
+player = true
+
+[node name="DefaultShip278" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1561, 3687)
+player = true
+
+[node name="DefaultShip279" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1483, 3683)
+player = true
+
+[node name="DefaultShip280" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1412, 3694)
+player = true
+
+[node name="DefaultShip281" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1340, 3683)
+player = true
+
+[node name="DefaultShip282" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1265, 3687)
+player = true
+
+[node name="DefaultShip283" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1187, 3683)
+player = true
+
+[node name="DefaultShip284" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1116, 3694)
+player = true
+
+[node name="DefaultShip285" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1041, 3694)
+player = true
+
+[node name="DefaultShip286" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-966, 3698)
+player = true
+
+[node name="DefaultShip287" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-888, 3694)
+player = true
+
+[node name="DefaultShip288" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-817, 3705)
+player = true
+
+[node name="DefaultShip289" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-745, 3694)
+player = true
+
+[node name="DefaultShip290" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-670, 3698)
+player = true
+
+[node name="DefaultShip291" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-592, 3694)
+player = true
+
+[node name="DefaultShip292" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-521, 3705)
+player = true
+
+[node name="DefaultShip293" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-428, 3679)
+player = true
+
+[node name="DefaultShip294" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-353, 3683)
+player = true
+
+[node name="DefaultShip295" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-275, 3679)
+player = true
+
+[node name="DefaultShip296" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-204, 3690)
+player = true
+
+[node name="DefaultShip297" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-132, 3679)
+player = true
+
+[node name="DefaultShip298" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-57, 3683)
+player = true
+
+[node name="DefaultShip299" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(21, 3679)
+player = true
+
+[node name="DefaultShip300" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(92, 3690)
+player = true
+
+[node name="DefaultShip301" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(167, 3690)
+player = true
+
+[node name="DefaultShip302" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1633, 3783)
+player = true
+
+[node name="DefaultShip303" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1558, 3787)
+player = true
+
+[node name="DefaultShip304" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1480, 3783)
+player = true
+
+[node name="DefaultShip305" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1409, 3794)
+player = true
+
+[node name="DefaultShip306" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1337, 3783)
+player = true
+
+[node name="DefaultShip307" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1262, 3787)
+player = true
+
+[node name="DefaultShip308" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1184, 3783)
+player = true
+
+[node name="DefaultShip309" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1113, 3794)
+player = true
+
+[node name="DefaultShip310" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1038, 3794)
+player = true
+
+[node name="DefaultShip311" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-963, 3798)
+player = true
+
+[node name="DefaultShip312" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-885, 3794)
+player = true
+
+[node name="DefaultShip313" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-814, 3805)
+player = true
+
+[node name="DefaultShip314" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-742, 3794)
+player = true
+
+[node name="DefaultShip315" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-667, 3798)
+player = true
+
+[node name="DefaultShip316" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-589, 3794)
+player = true
+
+[node name="DefaultShip317" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-518, 3805)
+player = true
+
+[node name="DefaultShip318" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-425, 3779)
+player = true
+
+[node name="DefaultShip319" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-350, 3783)
+player = true
+
+[node name="DefaultShip320" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-272, 3779)
+player = true
+
+[node name="DefaultShip321" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-201, 3790)
+player = true
+
+[node name="DefaultShip322" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-129, 3779)
+player = true
+
+[node name="DefaultShip323" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-54, 3783)
+player = true
+
+[node name="DefaultShip324" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(24, 3779)
+player = true
+
+[node name="DefaultShip325" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(95, 3790)
+player = true
+
+[node name="DefaultShip326" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(170, 3790)
+player = true
+
+[node name="DefaultShip327" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1629, 3886)
+player = true
+
+[node name="DefaultShip328" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1554, 3890)
+player = true
+
+[node name="DefaultShip329" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1476, 3886)
+player = true
+
+[node name="DefaultShip330" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1405, 3897)
+player = true
+
+[node name="DefaultShip331" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1333, 3886)
+player = true
+
+[node name="DefaultShip332" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1258, 3890)
+player = true
+
+[node name="DefaultShip333" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1180, 3886)
+player = true
+
+[node name="DefaultShip334" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1109, 3897)
+player = true
+
+[node name="DefaultShip335" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1034, 3897)
+player = true
+
+[node name="DefaultShip336" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-959, 3901)
+player = true
+
+[node name="DefaultShip337" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-881, 3897)
+player = true
+
+[node name="DefaultShip338" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-810, 3908)
+player = true
+
+[node name="DefaultShip339" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-738, 3897)
+player = true
+
+[node name="DefaultShip340" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-663, 3901)
+player = true
+
+[node name="DefaultShip341" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-585, 3897)
+player = true
+
+[node name="DefaultShip342" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-514, 3908)
+player = true
+
+[node name="DefaultShip343" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-421, 3882)
+player = true
+
+[node name="DefaultShip344" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-429, 3975)
+player = true
+
+[node name="DefaultShip345" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-346, 3886)
+player = true
+
+[node name="DefaultShip346" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-268, 3882)
+player = true
+
+[node name="DefaultShip347" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-263, 3981)
+player = true
+
+[node name="DefaultShip348" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-197, 3893)
+player = true
+
+[node name="DefaultShip349" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-125, 3882)
+player = true
+
+[node name="DefaultShip350" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-122, 3991)
+player = true
+
+[node name="DefaultShip351" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-50, 3886)
+player = true
+
+[node name="DefaultShip352" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(28, 3882)
+player = true
+
+[node name="DefaultShip353" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(25, 3981)
+player = true
+
+[node name="DefaultShip354" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(99, 3893)
+player = true
+
+[node name="DefaultShip355" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(174, 3893)
+player = true
+
+[node name="DefaultShip356" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1622, 3979)
+player = true
+
+[node name="DefaultShip357" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1547, 3983)
+player = true
+
+[node name="DefaultShip358" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1469, 3979)
+player = true
+
+[node name="DefaultShip359" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1398, 3990)
+player = true
+
+[node name="DefaultShip360" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1326, 3979)
+player = true
+
+[node name="DefaultShip361" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1251, 3983)
+player = true
+
+[node name="DefaultShip362" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1173, 3979)
+player = true
+
+[node name="DefaultShip363" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1102, 3990)
+player = true
+
+[node name="DefaultShip364" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1027, 3990)
+player = true
+
+[node name="DefaultShip365" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-952, 3994)
+player = true
+
+[node name="DefaultShip366" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-874, 3990)
+player = true
+
+[node name="DefaultShip367" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-803, 4001)
+player = true
+
+[node name="DefaultShip368" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-731, 3990)
+player = true
+
+[node name="DefaultShip369" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-656, 3994)
+player = true
+
+[node name="DefaultShip370" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-578, 3990)
+player = true
+
+[node name="DefaultShip371" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-507, 4001)
+player = true
+
+[node name="DefaultShip372" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-339, 3979)
+player = true
+
+[node name="DefaultShip373" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-190, 3986)
+player = true
+
+[node name="DefaultShip374" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-43, 3979)
+player = true
+
+[node name="DefaultShip375" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(106, 3986)
+player = true
+
+[node name="DefaultShip376" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(181, 3986)
+player = true
+
+[node name="DefaultShip377" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1640, 4162)
+player = true
+
+[node name="DefaultShip378" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1565, 4166)
+player = true
+
+[node name="DefaultShip379" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1487, 4162)
+player = true
+
+[node name="DefaultShip380" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1416, 4173)
+player = true
+
+[node name="DefaultShip381" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1344, 4162)
+player = true
+
+[node name="DefaultShip382" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1269, 4166)
+player = true
+
+[node name="DefaultShip383" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1191, 4162)
+player = true
+
+[node name="DefaultShip384" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1120, 4173)
+player = true
+
+[node name="DefaultShip385" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1045, 4173)
+player = true
+
+[node name="DefaultShip386" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-970, 4177)
+player = true
+
+[node name="DefaultShip387" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-892, 4173)
+player = true
+
+[node name="DefaultShip388" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-821, 4184)
+player = true
+
+[node name="DefaultShip389" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-749, 4173)
+player = true
+
+[node name="DefaultShip390" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-674, 4177)
+player = true
+
+[node name="DefaultShip391" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-596, 4173)
+player = true
+
+[node name="DefaultShip392" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-525, 4184)
+player = true
+
+[node name="DefaultShip393" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-432, 4158)
+player = true
+
+[node name="DefaultShip394" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-357, 4162)
+player = true
+
+[node name="DefaultShip395" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-279, 4158)
+player = true
+
+[node name="DefaultShip396" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-208, 4169)
+player = true
+
+[node name="DefaultShip397" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-136, 4158)
+player = true
+
+[node name="DefaultShip398" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-61, 4162)
+player = true
+
+[node name="DefaultShip399" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(17, 4158)
+player = true
+
+[node name="DefaultShip400" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(88, 4169)
+player = true
+
+[node name="DefaultShip401" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(163, 4169)
+player = true
+
+[node name="DefaultShip402" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1636, 4265)
+player = true
+
+[node name="DefaultShip403" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1561, 4269)
+player = true
+
+[node name="DefaultShip404" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1483, 4265)
+player = true
+
+[node name="DefaultShip405" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1412, 4276)
+player = true
+
+[node name="DefaultShip406" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1340, 4265)
+player = true
+
+[node name="DefaultShip407" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1265, 4269)
+player = true
+
+[node name="DefaultShip408" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1187, 4265)
+player = true
+
+[node name="DefaultShip409" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1116, 4276)
+player = true
+
+[node name="DefaultShip410" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1041, 4276)
+player = true
+
+[node name="DefaultShip411" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-966, 4280)
+player = true
+
+[node name="DefaultShip412" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-888, 4276)
+player = true
+
+[node name="DefaultShip413" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-817, 4287)
+player = true
+
+[node name="DefaultShip414" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-745, 4276)
+player = true
+
+[node name="DefaultShip415" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-670, 4280)
+player = true
+
+[node name="DefaultShip416" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-592, 4276)
+player = true
+
+[node name="DefaultShip417" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-521, 4287)
+player = true
+
+[node name="DefaultShip418" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-428, 4261)
+player = true
+
+[node name="DefaultShip419" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-353, 4265)
+player = true
+
+[node name="DefaultShip420" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-275, 4261)
+player = true
+
+[node name="DefaultShip421" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-204, 4272)
+player = true
+
+[node name="DefaultShip422" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-132, 4261)
+player = true
+
+[node name="DefaultShip423" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-57, 4265)
+player = true
+
+[node name="DefaultShip424" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(21, 4261)
+player = true
+
+[node name="DefaultShip425" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(92, 4272)
+player = true
+
+[node name="DefaultShip426" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(167, 4272)
+player = true
+
+[node name="DefaultShip427" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1633, 4365)
+player = true
+
+[node name="DefaultShip428" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1558, 4369)
+player = true
+
+[node name="DefaultShip429" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1480, 4365)
+player = true
+
+[node name="DefaultShip430" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1409, 4376)
+player = true
+
+[node name="DefaultShip431" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1337, 4365)
+player = true
+
+[node name="DefaultShip432" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1262, 4369)
+player = true
+
+[node name="DefaultShip433" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1184, 4365)
+player = true
+
+[node name="DefaultShip434" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1113, 4376)
+player = true
+
+[node name="DefaultShip435" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1038, 4376)
+player = true
+
+[node name="DefaultShip436" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-963, 4380)
+player = true
+
+[node name="DefaultShip437" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-885, 4376)
+player = true
+
+[node name="DefaultShip438" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-814, 4387)
+player = true
+
+[node name="DefaultShip439" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-742, 4376)
+player = true
+
+[node name="DefaultShip440" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-667, 4380)
+player = true
+
+[node name="DefaultShip441" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-589, 4376)
+player = true
+
+[node name="DefaultShip442" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-518, 4387)
+player = true
+
+[node name="DefaultShip443" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-425, 4361)
+player = true
+
+[node name="DefaultShip444" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-350, 4365)
+player = true
+
+[node name="DefaultShip445" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-272, 4361)
+player = true
+
+[node name="DefaultShip446" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-201, 4372)
+player = true
+
+[node name="DefaultShip447" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-129, 4361)
+player = true
+
+[node name="DefaultShip448" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-54, 4365)
+player = true
+
+[node name="DefaultShip449" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(24, 4361)
+player = true
+
+[node name="DefaultShip450" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(95, 4372)
+player = true
+
+[node name="DefaultShip451" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(170, 4372)
+player = true
+
+[node name="DefaultShip452" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1629, 4468)
+player = true
+
+[node name="DefaultShip453" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1554, 4472)
+player = true
+
+[node name="DefaultShip454" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1476, 4468)
+player = true
+
+[node name="DefaultShip455" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1405, 4479)
+player = true
+
+[node name="DefaultShip456" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1333, 4468)
+player = true
+
+[node name="DefaultShip457" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1258, 4472)
+player = true
+
+[node name="DefaultShip458" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1180, 4468)
+player = true
+
+[node name="DefaultShip459" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1109, 4479)
+player = true
+
+[node name="DefaultShip460" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1034, 4479)
+player = true
+
+[node name="DefaultShip461" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-959, 4483)
+player = true
+
+[node name="DefaultShip462" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-881, 4479)
+player = true
+
+[node name="DefaultShip463" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-810, 4490)
+player = true
+
+[node name="DefaultShip464" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-738, 4479)
+player = true
+
+[node name="DefaultShip465" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-663, 4483)
+player = true
+
+[node name="DefaultShip466" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-585, 4479)
+player = true
+
+[node name="DefaultShip467" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-514, 4490)
+player = true
+
+[node name="DefaultShip468" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-421, 4464)
+player = true
+
+[node name="DefaultShip469" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-429, 4557)
+player = true
+
+[node name="DefaultShip470" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-346, 4468)
+player = true
+
+[node name="DefaultShip471" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-268, 4464)
+player = true
+
+[node name="DefaultShip472" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-263, 4563)
+player = true
+
+[node name="DefaultShip473" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-197, 4475)
+player = true
+
+[node name="DefaultShip474" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-125, 4464)
+player = true
+
+[node name="DefaultShip475" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-122, 4573)
+player = true
+
+[node name="DefaultShip476" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-50, 4468)
+player = true
+
+[node name="DefaultShip477" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(28, 4464)
+player = true
+
+[node name="DefaultShip478" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(25, 4563)
+player = true
+
+[node name="DefaultShip479" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(99, 4475)
+player = true
+
+[node name="DefaultShip480" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(174, 4475)
+player = true
+
+[node name="DefaultShip481" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1622, 4561)
+player = true
+
+[node name="DefaultShip482" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1547, 4565)
+player = true
+
+[node name="DefaultShip483" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1469, 4561)
+player = true
+
+[node name="DefaultShip484" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1398, 4572)
+player = true
+
+[node name="DefaultShip485" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1326, 4561)
+player = true
+
+[node name="DefaultShip486" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1251, 4565)
+player = true
+
+[node name="DefaultShip487" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1173, 4561)
+player = true
+
+[node name="DefaultShip488" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1102, 4572)
+player = true
+
+[node name="DefaultShip489" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1027, 4572)
+player = true
+
+[node name="DefaultShip490" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-952, 4576)
+player = true
+
+[node name="DefaultShip491" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-874, 4572)
+player = true
+
+[node name="DefaultShip492" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-803, 4583)
+player = true
+
+[node name="DefaultShip493" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-731, 4572)
+player = true
+
+[node name="DefaultShip494" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-656, 4576)
+player = true
+
+[node name="DefaultShip495" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-578, 4572)
+player = true
+
+[node name="DefaultShip496" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-507, 4583)
+player = true
+
+[node name="DefaultShip497" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-339, 4561)
+player = true
+
+[node name="DefaultShip498" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-190, 4568)
+player = true
+
+[node name="DefaultShip499" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-43, 4561)
+player = true
+
+[node name="DefaultShip500" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(106, 4568)
+player = true
+
+[node name="DefaultShip501" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(181, 4568)
+player = true
+
+[node name="DefaultShip502" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1640, 4728)
+player = true
+
+[node name="DefaultShip503" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1565, 4732)
+player = true
+
+[node name="DefaultShip504" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1487, 4728)
+player = true
+
+[node name="DefaultShip505" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1416, 4739)
+player = true
+
+[node name="DefaultShip506" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1344, 4728)
+player = true
+
+[node name="DefaultShip507" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1269, 4732)
+player = true
+
+[node name="DefaultShip508" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1191, 4728)
+player = true
+
+[node name="DefaultShip509" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1120, 4739)
+player = true
+
+[node name="DefaultShip510" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1045, 4739)
+player = true
+
+[node name="DefaultShip511" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-970, 4743)
+player = true
+
+[node name="DefaultShip512" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-892, 4739)
+player = true
+
+[node name="DefaultShip513" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-821, 4750)
+player = true
+
+[node name="DefaultShip514" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-749, 4739)
+player = true
+
+[node name="DefaultShip515" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-674, 4743)
+player = true
+
+[node name="DefaultShip516" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-596, 4739)
+player = true
+
+[node name="DefaultShip517" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-525, 4750)
+player = true
+
+[node name="DefaultShip518" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-432, 4724)
+player = true
+
+[node name="DefaultShip519" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-357, 4728)
+player = true
+
+[node name="DefaultShip520" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-279, 4724)
+player = true
+
+[node name="DefaultShip521" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-208, 4735)
+player = true
+
+[node name="DefaultShip522" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-136, 4724)
+player = true
+
+[node name="DefaultShip523" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-61, 4728)
+player = true
+
+[node name="DefaultShip524" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(17, 4724)
+player = true
+
+[node name="DefaultShip525" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(88, 4735)
+player = true
+
+[node name="DefaultShip526" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(163, 4735)
+player = true
+
+[node name="DefaultShip527" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1636, 4831)
+player = true
+
+[node name="DefaultShip528" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1561, 4835)
+player = true
+
+[node name="DefaultShip529" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1483, 4831)
+player = true
+
+[node name="DefaultShip530" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1412, 4842)
+player = true
+
+[node name="DefaultShip531" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1340, 4831)
+player = true
+
+[node name="DefaultShip532" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1265, 4835)
+player = true
+
+[node name="DefaultShip533" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1187, 4831)
+player = true
+
+[node name="DefaultShip534" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1116, 4842)
+player = true
+
+[node name="DefaultShip535" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1041, 4842)
+player = true
+
+[node name="DefaultShip536" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-966, 4846)
+player = true
+
+[node name="DefaultShip537" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-888, 4842)
+player = true
+
+[node name="DefaultShip538" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-817, 4853)
+player = true
+
+[node name="DefaultShip539" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-745, 4842)
+player = true
+
+[node name="DefaultShip540" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-670, 4846)
+player = true
+
+[node name="DefaultShip541" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-592, 4842)
+player = true
+
+[node name="DefaultShip542" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-521, 4853)
+player = true
+
+[node name="DefaultShip543" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-428, 4827)
+player = true
+
+[node name="DefaultShip544" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-353, 4831)
+player = true
+
+[node name="DefaultShip545" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-275, 4827)
+player = true
+
+[node name="DefaultShip546" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-204, 4838)
+player = true
+
+[node name="DefaultShip547" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-132, 4827)
+player = true
+
+[node name="DefaultShip548" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-57, 4831)
+player = true
+
+[node name="DefaultShip549" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(21, 4827)
+player = true
+
+[node name="DefaultShip550" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(92, 4838)
+player = true
+
+[node name="DefaultShip551" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(167, 4838)
+player = true
+
+[node name="DefaultShip552" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1633, 4931)
+player = true
+
+[node name="DefaultShip553" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1558, 4935)
+player = true
+
+[node name="DefaultShip554" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1480, 4931)
+player = true
+
+[node name="DefaultShip555" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1409, 4942)
+player = true
+
+[node name="DefaultShip556" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1337, 4931)
+player = true
+
+[node name="DefaultShip557" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1262, 4935)
+player = true
+
+[node name="DefaultShip558" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1184, 4931)
+player = true
+
+[node name="DefaultShip559" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1113, 4942)
+player = true
+
+[node name="DefaultShip560" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1038, 4942)
+player = true
+
+[node name="DefaultShip561" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-963, 4946)
+player = true
+
+[node name="DefaultShip562" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-885, 4942)
+player = true
+
+[node name="DefaultShip563" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-814, 4953)
+player = true
+
+[node name="DefaultShip564" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-742, 4942)
+player = true
+
+[node name="DefaultShip565" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-667, 4946)
+player = true
+
+[node name="DefaultShip566" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-589, 4942)
+player = true
+
+[node name="DefaultShip567" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-518, 4953)
+player = true
+
+[node name="DefaultShip568" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-425, 4927)
+player = true
+
+[node name="DefaultShip569" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-350, 4931)
+player = true
+
+[node name="DefaultShip570" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-272, 4927)
+player = true
+
+[node name="DefaultShip571" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-201, 4938)
+player = true
+
+[node name="DefaultShip572" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-129, 4927)
+player = true
+
+[node name="DefaultShip573" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-54, 4931)
+player = true
+
+[node name="DefaultShip574" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(24, 4927)
+player = true
+
+[node name="DefaultShip575" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(95, 4938)
+player = true
+
+[node name="DefaultShip576" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(170, 4938)
+player = true
+
+[node name="DefaultShip577" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1629, 5034)
+player = true
+
+[node name="DefaultShip578" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1554, 5038)
+player = true
+
+[node name="DefaultShip579" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1476, 5034)
+player = true
+
+[node name="DefaultShip580" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1405, 5045)
+player = true
+
+[node name="DefaultShip581" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1333, 5034)
+player = true
+
+[node name="DefaultShip582" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1258, 5038)
+player = true
+
+[node name="DefaultShip583" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1180, 5034)
+player = true
+
+[node name="DefaultShip584" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1109, 5045)
+player = true
+
+[node name="DefaultShip585" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-1034, 5045)
+player = true
+
+[node name="DefaultShip586" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-959, 5049)
+player = true
+
+[node name="DefaultShip587" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-881, 5045)
+player = true
+
+[node name="DefaultShip588" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-810, 5056)
+player = true
+
+[node name="DefaultShip589" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-738, 5045)
+player = true
+
+[node name="DefaultShip590" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-663, 5049)
+player = true
+
+[node name="DefaultShip591" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-585, 5045)
+player = true
+
+[node name="DefaultShip592" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-514, 5056)
+player = true
+
+[node name="DefaultShip593" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-421, 5030)
+player = true
+
+[node name="DefaultShip594" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-429, 5123)
+player = true
+
+[node name="DefaultShip595" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-346, 5034)
+player = true
+
+[node name="DefaultShip596" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-268, 5030)
+player = true
+
+[node name="DefaultShip597" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-263, 5129)
+player = true
+
+[node name="DefaultShip598" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-197, 5041)
+player = true
+
+[node name="DefaultShip599" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-125, 5030)
+player = true
+
+[node name="DefaultShip600" parent="Shippies" instance=ExtResource("2_0jl0b")]
+position = Vector2(-122, 5139)
+player = true
+
+[node name="DefaultShip" parent="." instance=ExtResource("2_0jl0b")]
+position = Vector2(-813, 2941)
+player = true
+metadata/_edit_group_ = true
 
 [node name="Camera2D" type="Camera2D" parent="DefaultShip"]
