@@ -26,7 +26,7 @@ script = ExtResource("1_g1e6l")
 position = Vector2(0, 35)
 rotation = -6.28318
 scale = Vector2(0.4, 0.5)
-power = 100
+power = 100.0
 is_main_engine = true
 move_front = true
 
@@ -34,7 +34,7 @@ move_front = true
 position = Vector2(27, 16)
 rotation = -1.5708
 scale = Vector2(0.1, 0.15)
-power = 16
+power = 16.0
 rotate_right = true
 move_left = true
 
@@ -42,7 +42,7 @@ move_left = true
 position = Vector2(5, -21)
 rotation = -1.5708
 scale = Vector2(0.06, 0.1)
-power = 13
+power = 12.25
 rotate_left = true
 move_left = true
 
@@ -50,7 +50,7 @@ move_left = true
 position = Vector2(-5, -21)
 rotation = -4.71239
 scale = Vector2(0.06, 0.1)
-power = 13
+power = 12.25
 rotate_right = true
 move_right = true
 
@@ -58,7 +58,7 @@ move_right = true
 position = Vector2(-27, 16)
 rotation = -4.71239
 scale = Vector2(0.1, 0.15)
-power = 16
+power = 16.0
 rotate_left = true
 move_right = true
 
@@ -66,12 +66,12 @@ move_right = true
 position = Vector2(-18, 8)
 rotation = -3.14159
 scale = Vector2(0.1, 0.15)
-power = 16
+power = 16.0
 move_back = true
 
 [node name="BRR_cpp_thruster" parent="ComponentSorter/Thrusters" instance=ExtResource("1_4glxg")]
 position = Vector2(18, 8)
 rotation = -3.14159
 scale = Vector2(0.1, 0.15)
-power = 16
+power = 16.0
 move_back = true

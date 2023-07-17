@@ -6,7 +6,7 @@
 [node name="cppTest" type="Node"]
 
 [node name="cpp_ship" parent="." instance=ExtResource("1_fy4bc")]
-position = Vector2(-732, 1577)
+position = Vector2(-684, 1622)
 metadata/_edit_group_ = true
 
 [node name="Camera2D" type="Camera2D" parent="cpp_ship"]
