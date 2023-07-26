@@ -3,13 +3,13 @@
 [ext_resource type="PackedScene" uid="uid://pm1reecoiieh" path="res://cpp/cpp_ship.tscn" id="1_fy4bc"]
 [ext_resource type="PackedScene" uid="uid://uh1j5lf1cvvp" path="res://Entities/Debris/Asteroid.tscn" id="2_1030m"]
 
-[node name="cppTest" type="Node"]
+[node name="cppPhysicsSolver" type="ThreadedPhysicsSolver2D"]
 
-[node name="cpp_ship" parent="." instance=ExtResource("1_fy4bc")]
-position = Vector2(-684, 1622)
+[node name="shippo" parent="." instance=ExtResource("1_fy4bc")]
+position = Vector2(-683, 2487)
 metadata/_edit_group_ = true
 
-[node name="Camera2D" type="Camera2D" parent="cpp_ship"]
+[node name="Camera2D" type="Camera2D" parent="shippo"]
 
 [node name="\'Steroids" type="Node" parent="."]
 

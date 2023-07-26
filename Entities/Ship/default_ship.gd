@@ -10,6 +10,8 @@ func _ready():
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(_delta):
+	print("Inertia is:")
+	print(1 / PhysicsServer2D.body_get_direct_state(self.get_rid()).inverse_inertia)
 	
 	if !player:
 		movement_manager.move_front()
