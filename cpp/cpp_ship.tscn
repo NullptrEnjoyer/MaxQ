@@ -21,55 +21,65 @@ script = ExtResource("1_g1e6l")
 position = Vector2(0, 35)
 rotation = -6.28318
 scale = Vector2(0.4, 0.5)
-power_(kN) = 10000.0
+power_(kN) = 5000.0
 is_main_engine = true
 move_front = true
 
 [node name="BR_cpp_thruster" parent="PhysicsPolygon2D/ComponentSorter/Thrusters" instance=ExtResource("1_4glxg")]
-position = Vector2(27, 16)
+position = Vector2(28, 20)
 rotation = -1.5708
 scale = Vector2(0.1, 0.15)
-power_(kN) = 1600.0
+power_(kN) = 750.0
 rotate_right = true
 move_left = true
 
 [node name="TR_cpp_thruster" parent="PhysicsPolygon2D/ComponentSorter/Thrusters" instance=ExtResource("1_4glxg")]
-position = Vector2(5, -21)
+position = Vector2(8, -16)
 rotation = -1.5708
 scale = Vector2(0.06, 0.1)
-power_(kN) = 850.0
+power_(kN) = 650.0
 rotate_left = true
 move_left = true
 
 [node name="TL_cpp_thruster" parent="PhysicsPolygon2D/ComponentSorter/Thrusters" instance=ExtResource("1_4glxg")]
-position = Vector2(-5, -21)
+position = Vector2(-8, -16)
 rotation = -4.71239
 scale = Vector2(0.06, 0.1)
-power_(kN) = 850.0
+power_(kN) = 650.0
 rotate_right = true
 move_right = true
 
 [node name="BL_cpp_thruster" parent="PhysicsPolygon2D/ComponentSorter/Thrusters" instance=ExtResource("1_4glxg")]
-position = Vector2(-27, 16)
+position = Vector2(-28, 20)
 rotation = -4.71239
 scale = Vector2(0.1, 0.15)
-power_(kN) = 1600.0
+power_(kN) = 750.0
 rotate_left = true
 move_right = true
 
 [node name="BLR_cpp_thruster" parent="PhysicsPolygon2D/ComponentSorter/Thrusters" instance=ExtResource("1_4glxg")]
-position = Vector2(-18, 8)
+position = Vector2(-20, 10)
 rotation = -3.14159
 scale = Vector2(0.1, 0.15)
-power_(kN) = 1600.0
+power_(kN) = 750.0
 move_back = true
 
 [node name="BRR_cpp_thruster" parent="PhysicsPolygon2D/ComponentSorter/Thrusters" instance=ExtResource("1_4glxg")]
-position = Vector2(18, 8)
+position = Vector2(20, 10)
 rotation = -3.14159
 scale = Vector2(0.1, 0.15)
-power_(kN) = 1600.0
+power_(kN) = 750.0
 move_back = true
+
+[node name="Line2D" type="Line2D" parent="PhysicsPolygon2D"]
+points = PackedVector2Array(6, 0, -6, 0)
+width = 4.0
+default_color = Color(1, 0.87451, 0.337255, 1)
+
+[node name="Line2D2" type="Line2D" parent="PhysicsPolygon2D"]
+points = PackedVector2Array(0, -6, 0, 6)
+width = 4.0
+default_color = Color(0.729412, 0.615686, 0, 1)
 
 [node name="Line2D" type="Line2D" parent="."]
 points = PackedVector2Array(6, 0, -6, 0)
