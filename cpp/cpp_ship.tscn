@@ -34,7 +34,7 @@ rotate_right = true
 move_left = true
 
 [node name="TR_cpp_thruster" parent="PhysicsPolygon2D/ComponentSorter/Thrusters" instance=ExtResource("1_4glxg")]
-position = Vector2(8, -16)
+position = Vector2(9.07196, -15.9648)
 rotation = -1.5708
 scale = Vector2(0.06, 0.1)
 power_(kN) = 650.0
@@ -42,7 +42,7 @@ rotate_left = true
 move_left = true
 
 [node name="TL_cpp_thruster" parent="PhysicsPolygon2D/ComponentSorter/Thrusters" instance=ExtResource("1_4glxg")]
-position = Vector2(-8, -16)
+position = Vector2(-8.92788, -16.035)
 rotation = -4.71239
 scale = Vector2(0.06, 0.1)
 power_(kN) = 650.0
