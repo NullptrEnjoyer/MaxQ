@@ -1,14 +1,16 @@
-[gd_scene load_steps=4 format=3 uid="uid://b7nl824lrea8x"]
+[gd_scene load_steps=5 format=3 uid="uid://b7nl824lrea8x"]
 
 [ext_resource type="PackedScene" uid="uid://pm1reecoiieh" path="res://cpp/cpp_ship.tscn" id="1_fy4bc"]
+[ext_resource type="Script" path="res://cpp/Debug/collision_polygon_visualizer.gd" id="1_mwxdo"]
 [ext_resource type="PackedScene" uid="uid://uh1j5lf1cvvp" path="res://Entities/Debris/Asteroid.tscn" id="2_1030m"]
 [ext_resource type="Script" path="res://cpp/Debug/rect_visualizer.gd" id="2_b2oig"]
 
 [node name="cppPhysicsSolver" type="IndependentPhysicsSolver2D"]
+script = ExtResource("1_mwxdo")
 
 [node name="shippo" parent="." instance=ExtResource("1_fy4bc")]
-position = Vector2(-929, 2458)
-rotation = 2.16617
+position = Vector2(0, 50)
+rotation = 0.143748
 script = ExtResource("2_b2oig")
 metadata/_edit_group_ = true
 
@@ -790,24 +792,23 @@ position = Vector2(-1508, 1131)
 position = Vector2(-1500, 1247)
 
 [node name="PhysicsEntity2D" type="PhysicsEntity2D" parent="."]
-position = Vector2(-625, 2520)
-rotation = 4.58137
+rotation = 3.92399
 script = ExtResource("2_b2oig")
 metadata/_edit_group_ = true
 
 [node name="PhysicsSegment2D" type="PhysicsSegment2D" parent="PhysicsEntity2D"]
 position = Vector2(-132, 0)
 rotation = -3.09049
-polygon = PackedVector2Array(-6, -22, -35, -10, -193.019, 260.672, 30, 13, 22, -21)
+polygon = PackedVector2Array(-193.006, 74.1091, -39.0521, -95.4175, -199.866, -53.6952)
 
 [node name="Line2D" type="Line2D" parent="PhysicsEntity2D/PhysicsSegment2D"]
 points = PackedVector2Array(6, 0, -6, 0)
-width = 4.0
+width = 2.0
 default_color = Color(1, 0.87451, 0.337255, 1)
 
 [node name="Line2D2" type="Line2D" parent="PhysicsEntity2D/PhysicsSegment2D"]
 points = PackedVector2Array(0, -6, 0, 6)
-width = 4.0
+width = 2.0
 default_color = Color(0.729412, 0.615686, 0, 1)
 
 [node name="Line2RectDisplay" type="Line2D" parent="PhysicsEntity2D"]
@@ -818,10 +819,30 @@ default_color = Color(1, 0, 1, 1)
 
 [node name="Line2D3" type="Line2D" parent="PhysicsEntity2D"]
 points = PackedVector2Array(6, 0, -6, 0)
-width = 4.0
+width = 2.0
 default_color = Color(0, 1, 1, 1)
 
 [node name="Line2D4" type="Line2D" parent="PhysicsEntity2D"]
 points = PackedVector2Array(0, -6, 0, 6)
-width = 4.0
+width = 2.0
 default_color = Color(1, 0, 1, 1)
+
+[node name="B1START" type="Line2D" parent="."]
+points = PackedVector2Array(6, 0, -6, 0)
+width = 2.0
+default_color = Color(0, 0, 0.545098, 1)
+
+[node name="B1END" type="Line2D" parent="."]
+points = PackedVector2Array(0, -6, 0, 6)
+width = 2.0
+default_color = Color(0, 1, 1, 1)
+
+[node name="B2START" type="Line2D" parent="."]
+points = PackedVector2Array(6, 0, -6, 0)
+width = 2.0
+default_color = Color(0, 0.509804, 0, 1)
+
+[node name="B2END" type="Line2D" parent="."]
+points = PackedVector2Array(0, -6, 0, 6)
+width = 2.0
+default_color = Color(0, 1, 0, 1)
